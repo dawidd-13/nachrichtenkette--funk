@@ -13,6 +13,11 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
         basic.setLedColor(0x00ff00)
     }
 })
+input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
+    if (Modus == 0) {
+    	
+    }
+})
 input.onPinTouchEvent(TouchPin.P0, input.buttonEventDown(), function () {
     if (Modus == 1) {
         nachricht = 0
